@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(56, 86, 147);
+}
+
+.password-container {
+    border: 2px solid rgb(56, 86, 147);
+    border-radius: 50px;
+    background-color: rgb(246, 244, 237);
+    color: rgb(87, 195, 0);
+    padding: 5px;
+    margin: 20px 0;
+    transition: all 2s;
+}
+
+.password-container:hover {
+    transform: scale(1.2);
+}
+/* commento 123 */
+p {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+p::before {
+    content: '\f13e';
+    font-family: 'Font Awesome 5 Free';
+    color: rgb(56, 86, 147);
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+span {
+    font-weight: 400;
+}
